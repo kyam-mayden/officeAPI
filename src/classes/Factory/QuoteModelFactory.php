@@ -11,5 +11,4 @@ class QuoteModelFactory
         $db = $container->get('dbConnection');
         return new QuoteModel($db);
     }
-
 }

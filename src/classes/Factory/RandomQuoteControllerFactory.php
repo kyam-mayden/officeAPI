@@ -11,5 +11,4 @@ class RandomQuoteControllerFactory
         $QuoteModel = $container->get('QuoteModel');
         return new RandomQuoteController($QuoteModel);
     }
-
 }
