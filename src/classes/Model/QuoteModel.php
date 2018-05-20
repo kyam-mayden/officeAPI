@@ -2,7 +2,6 @@
 
 namespace Portal\Model;
 
-
 class QuoteModel
 {
     private $db;
@@ -30,6 +29,7 @@ class QuoteModel
                                          WHERE `id` = :id
                                          AND `deleted` = 0;');
         $query->bindParam(':id', $id);
+        $query->execute();
         return $query ->fetch();
     }
 }
