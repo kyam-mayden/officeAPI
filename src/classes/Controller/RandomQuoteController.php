@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Portal\Controller;
 
 use Portal\Model\QuoteModel;
@@ -24,7 +23,7 @@ class RandomQuoteController
             $data = [
                 'success' => true,
                 'character' => $quote['character'],
-                'quote' =>$quote['quote'],
+                'quote' =>$quote['quote']
             ];
             $statusCode = 200;
         }

@@ -1,23 +1,23 @@
 <?php
 
 namespace Portal\Model;
-use PDO;
+
 
 class QuoteModel
 {
     private $db;
 
-    public function __construct(PDO $db)
+    public function __construct(\PDO $db)
     {
         $this->db = $db;
     }
 
     public function getRandomQuote()
     {
-        $query = new $this->db->prepare('SELECT `quote`,`character` 
+        $query = $this->db->prepare('SELECT `quote`,`character` 
                                          FROM `quote`
                                          WHERE `deleted` = 0;');
-        $query->execture();
+        $query->execute();
         $quotes = $query->fetchAll();
         $numberOfQuotes = sizeof($quotes);
         return $quotes[floor(rand(0, $numberOfQuotes))];

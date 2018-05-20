@@ -13,4 +13,4 @@ $app->get('/[{name}]', function (Request $request, Response $response, array $ar
     return $this->renderer->render($response, 'index.phtml', $args);
 });
 
-$app->post('/api/quote', 'RandomQuoteController');
+$app->get('/api/quote', 'RandomQuoteController');

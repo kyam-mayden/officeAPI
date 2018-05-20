@@ -17,8 +17,6 @@ $container['logger'] = function ($c) {
     $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['path'], $settings['level']));
     return $logger;
 };
-//quote controller
-$container['RandomQuoteController'] = new Portal\Factory\RandomQuoteControllerFactory();
 
 //database
 $container['dbConnection'] = function ($c) {
@@ -26,6 +24,9 @@ $container['dbConnection'] = function ($c) {
     $db = new PDO($settings['host'].$settings['dbName'], $settings['userName']);
     return $db;
 };
+
+//quote controller
+$container['RandomQuoteController'] = new Portal\Factory\RandomQuoteControllerFactory();
 
 //quote model
 $container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();

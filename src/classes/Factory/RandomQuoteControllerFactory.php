@@ -1,7 +1,8 @@
 <?php
 
 namespace Portal\Factory;
-use \portal\Controller\RandomQuoteController;
+use Portal\Controller\RandomQuoteController;
+use Psr\Container\ContainerInterface;
 
 class RandomQuoteControllerFactory
 {
