@@ -2,23 +2,11 @@
 
 namespace Portal\Controller;
 
-use Portal\Model\QuoteModel;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-class RandomQuoteController
+class RandomQuoteController extends QuoteController
 {
-    private $QuoteModel;
-
-    /**
-     * RandomQuoteController constructor.
-     * @param QuoteModel $QuoteModel
-     */
-    function __construct(QuoteModel $QuoteModel)
-    {
-        $this->QuoteModel=$QuoteModel;
-    }
-
     /**
      * Gets random quote from DB and adds to response
      *

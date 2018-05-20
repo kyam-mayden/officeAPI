@@ -6,19 +6,8 @@ use Portal\Model\QuoteModel;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-class QuoteByIdController
+class QuoteByIdController extends QuoteController
 {
-    private $QuoteModel;
-
-    /**
-     * QuoteByIdController constructor.
-     * @param QuoteModel $QuoteModel
-     */
-    function __construct(QuoteModel $QuoteModel)
-    {
-        $this->QuoteModel=$QuoteModel;
-    }
-
     /**
      * gets quote by a given ID from URI
      *
