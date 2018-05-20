@@ -6,6 +6,12 @@ use Psr\Container\ContainerInterface;
 
 class QuoteByIdFactory
 {
+    /**
+     * Creates a quoteByIdController on invoke
+     *
+     * @param ContainerInterface $container
+     * @return QuoteByIdController
+     */
     public function __invoke(ContainerInterface $container): QuoteByIdController
     {
         $QuoteModel = $container->get('QuoteModel');

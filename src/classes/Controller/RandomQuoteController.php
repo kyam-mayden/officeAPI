@@ -10,11 +10,22 @@ class RandomQuoteController
 {
     private $QuoteModel;
 
+    /**
+     * RandomQuoteController constructor.
+     * @param QuoteModel $QuoteModel
+     */
     function __construct(QuoteModel $QuoteModel)
     {
         $this->QuoteModel=$QuoteModel;
     }
 
+    /**
+     * Gets random quote from DB and adds to response
+     *
+     * @param Request $request
+     * @param Response $response
+     * @return Response with data from DB appended
+     */
     function __invoke(Request $request, Response $response) {
         $data = ['success' => false, 'msg' => 'Error in retrieving quote', 'data' => []];
         $statusCode = 401;
