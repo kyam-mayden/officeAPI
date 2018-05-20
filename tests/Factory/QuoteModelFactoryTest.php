@@ -1,12 +1,13 @@
 <?php
 
 namespace Tests\Factory;
+use PHPUnit\Framework\TestCase;
 use Portal\Factory\QuoteModelFactory;
 use Portal\Model\QuoteModel;
 use Psr\Container\ContainerInterface;
 
 
-class QuoteModelFactoryTest
+class QuoteModelFactoryTest extends Testcase
 {
     function testInvoke()
     {

@@ -4,6 +4,7 @@
 namespace Tests\Model;
 
 
+
 class QuoteModelTest
 {
 
