@@ -33,3 +33,9 @@ $container['QuoteByIdController'] = new Portal\Factory\QuoteByIdControllerFactor
 
 //quote model
 $container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();
+
+//character Model
+$container['CharacterModel'] = new Portal\Factory\CharacterModelFactory();
+
+//Quotes by character controller
+$container['QuotesByCharacterController'];
