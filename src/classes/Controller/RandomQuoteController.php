@@ -7,7 +7,7 @@ use Portal\Model\QuoteModel;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-class randomQuoteController
+class RandomQuoteController
 {
     private $QuoteModel;
 

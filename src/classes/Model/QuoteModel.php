@@ -1,13 +1,13 @@
 <?php
 
 namespace Portal\Model;
-
+use PDO;
 
 class QuoteModel
 {
     private $db;
 
-    public function __construct(\PDO $db)
+    public function __construct(PDO $db)
     {
         $this->db = $db;
     }

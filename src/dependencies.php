@@ -18,8 +18,7 @@ $container['logger'] = function ($c) {
     return $logger;
 };
 //quote controller
-$container['RandomQuoteController'] = new Portal\Controller\RandomQuoteController();
-
+$container['RandomQuoteController'] = new Portal\Factory\RandomQuoteControllerFactory();
 
 //database
 $container['dbConnection'] = function ($c) {
@@ -27,3 +26,6 @@ $container['dbConnection'] = function ($c) {
     $db = new PDO($settings['host'].$settings['dbName'], $settings['userName']);
     return $db;
 };
+
+//quote model
+$container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();
