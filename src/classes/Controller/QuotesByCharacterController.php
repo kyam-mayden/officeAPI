@@ -25,12 +25,13 @@ class QuotesByCharacterController
         $character = $request->getAttribute('character');
         $statusCode = 401;
         $quotes = $this->characterModel->getQuotesByCharacter($character);
+
         if($quotes){
             $data = [
                 'success' => true,
                 'msg' => 'quotes successfully retrieved',
                 'character' => $character,
-                'quotes' =>$quotes
+                'quotes' =>  $quotes
             ];
             $statusCode = 200;
         }
