@@ -38,4 +38,4 @@ $container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();
 $container['CharacterModel'] = new Portal\Factory\CharacterModelFactory();
 
 //Quotes by character controller
-$container['QuotesByCharacterController'];
+$container['QuotesByCharacterController'] = new Portal\Factory\QuotesByCharacterControllerFactory();

@@ -28,6 +28,6 @@ class CharacterModel
                                                AND `character`.`name` = :character;");
         $query->bindParam(':character', $character);
         $query->execute();
-        $query->fetchAll();
+        return $query->fetchAll();
     }
 }
