@@ -20,7 +20,7 @@ class QuoteModel
      *
      * @return quote object including character, quote
      */
-    public function getRandomQuote()
+    public function getRandomQuote(): array
     {
         $query = $this->db->prepare('SELECT `quote`,`character` 
                                          FROM `quote`
@@ -37,7 +37,7 @@ class QuoteModel
      * @param $id from URI
      * @return mixed quote including quote, character
      */
-    public function getQuoteById($id)
+    public function getQuoteById($id): array
     {
         $id = filter_var($id, FILTER_SANITIZE_NUMBER_FLOAT);
         $query = $this->db->prepare('SELECT `quote`,`character` 

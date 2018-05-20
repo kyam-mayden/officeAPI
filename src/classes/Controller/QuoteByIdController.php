@@ -27,7 +27,7 @@ class QuoteByIdController
      *
      * @return Response appended with quote as JSON
      */
-    function __invoke(Request $request, Response $response)
+    function __invoke(Request $request, Response $response): Response
     {
         $data = ['success' => false, 'msg' => 'Error in retrieving quote', 'data' => []];
         $id = $request->getAttribute('id');

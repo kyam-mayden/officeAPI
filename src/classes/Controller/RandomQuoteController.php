@@ -26,7 +26,8 @@ class RandomQuoteController
      * @param Response $response
      * @return Response with data from DB appended
      */
-    function __invoke(Request $request, Response $response) {
+    function __invoke(Request $request, Response $response): Response
+    {
         $data = ['success' => false, 'msg' => 'Error in retrieving quote', 'data' => []];
         $statusCode = 401;
         $quote = $this->QuoteModel->getRandomQuote();
