@@ -20,6 +20,6 @@ class QuoteModel
         $query->execute();
         $quotes = $query->fetchAll();
         $numberOfQuotes = sizeof($quotes);
-        return $quotes[floor(rand(0, $numberOfQuotes))];
+        return $quotes[floor(rand(0, $numberOfQuotes-1))];
         }
 }
