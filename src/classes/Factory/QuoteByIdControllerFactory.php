@@ -4,7 +4,7 @@ namespace Portal\Factory;
 use Portal\Controller\QuoteByIdController;
 use Psr\Container\ContainerInterface;
 
-class QuoteByIdFactory
+class QuoteByIdControllerFactory
 {
     /**
      * Creates a quoteByIdController on invoke

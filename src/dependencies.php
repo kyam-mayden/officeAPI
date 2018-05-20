@@ -29,7 +29,7 @@ $container['dbConnection'] = function ($c) {
 $container['RandomQuoteController'] = new Portal\Factory\RandomQuoteControllerFactory();
 
 //quote by Id controller
-$container['QuoteByIdController'] = new Portal\Factory\QuoteByIdFactory();
+$container['QuoteByIdController'] = new Portal\Factory\QuoteByIdControllerFactory();
 
 //quote model
 $container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();

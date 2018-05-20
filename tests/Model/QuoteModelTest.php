@@ -20,4 +20,8 @@ class QuoteModelTest extends TestCase
     function testSuccessGetRandomQuote(){
         //cannot test as interacts with database
     }
+
+    function testSuccessQuoteById(){
+        //cannot test as interacts with database
+    }
 }
