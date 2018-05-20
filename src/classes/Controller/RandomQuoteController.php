@@ -22,6 +22,7 @@ class RandomQuoteController
         if($quote){
             $data = [
                 'success' => true,
+                'msg' => 'quote successfully retrieved',
                 'character' => $quote['character'],
                 'quote' =>$quote['quote']
             ];
