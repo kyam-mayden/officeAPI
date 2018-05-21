@@ -3,8 +3,8 @@
 
 namespace Tests\Controller;
 use PHPUnit\Framework\TestCase;
-use Portal\Controller\QuotesByCharacterController;
-use Portal\Model\CharacterModel;
+use API\Controller\QuotesByCharacterController;
+use API\Model\CharacterModel;
 
 
 class QuotesByCharacterControllerTest extends TestCase

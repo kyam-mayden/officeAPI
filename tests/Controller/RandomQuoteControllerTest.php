@@ -2,8 +2,8 @@
 
 namespace Tests\Controller;
 use PHPUnit\Framework\TestCase;
-use Portal\Controller\RandomQuoteController;
-use Portal\Model\QuoteModel;
+use API\Controller\RandomQuoteController;
+use API\Model\QuoteModel;
 
 class RandomQuoteControllerTest extends TestCase
 {

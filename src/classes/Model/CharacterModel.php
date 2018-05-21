@@ -1,6 +1,6 @@
 <?php
 
-namespace Portal\Model;
+namespace API\Model;
 use PDO;
 
 class CharacterModel

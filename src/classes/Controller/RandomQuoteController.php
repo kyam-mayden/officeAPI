@@ -1,6 +1,6 @@
 <?php
 
-namespace Portal\Controller;
+namespace API\Controller;
 
 use Slim\Http\Request;
 use Slim\Http\Response;

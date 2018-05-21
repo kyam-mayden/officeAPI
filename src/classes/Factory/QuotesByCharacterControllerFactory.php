@@ -1,8 +1,8 @@
 <?php
 
 
-namespace Portal\Factory;
-use Portal\Controller\QuotesByCharacterController;
+namespace API\Factory;
+use API\Controller\QuotesByCharacterController;
 use Psr\Container\ContainerInterface;
 
 class QuotesByCharacterControllerFactory

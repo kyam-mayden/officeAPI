@@ -3,8 +3,8 @@
 
 namespace Tests\Factory;
 use PHPUnit\Framework\TestCase;
-use Portal\Factory\CharacterModelFactory;
-use Portal\Model\CharacterModel;
+use API\Factory\CharacterModelFactory;
+use API\Model\CharacterModel;
 use Psr\Container\ContainerInterface;
 use PDO;
 

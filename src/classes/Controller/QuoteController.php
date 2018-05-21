@@ -1,8 +1,8 @@
 <?php
 
 
-namespace Portal\Controller;
-use Portal\Model\QuoteModel;
+namespace API\Controller;
+use API\Model\QuoteModel;
 
 class QuoteController
 {

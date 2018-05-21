@@ -1,7 +1,7 @@
 <?php
 
-namespace Portal\Factory;
-use Portal\Controller\QuoteByIdController;
+namespace API\Factory;
+use API\Controller\QuoteByIdController;
 use Psr\Container\ContainerInterface;
 
 class QuoteByIdControllerFactory

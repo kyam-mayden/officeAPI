@@ -1,10 +1,10 @@
 <?php
 
-namespace Portal\Controller;
+namespace API\Controller;
 
 use Slim\Http\Request;
 use Slim\Http\Response;
-use Portal\Model\CharacterModel;
+use API\Model\CharacterModel;
 
 class QuotesByCharacterController
 {

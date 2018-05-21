@@ -2,8 +2,8 @@
 
 namespace Tests\Controller;
 use PHPUnit\Framework\TestCase;
-use Portal\Controller\QuoteByIdController;
-use Portal\Model\QuoteModel;
+use API\Controller\QuoteByIdController;
+use API\Model\QuoteModel;
 
 class QuoteByIdControllerTest extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
-namespace Portal\Factory;
-use Portal\Model\CharacterModel;
+namespace API\Factory;
+use API\Model\CharacterModel;
 use Psr\Container\ContainerInterface;
 
 class CharacterModelFactory

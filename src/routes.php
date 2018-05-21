@@ -16,3 +16,5 @@ $app->get('/[{name}]', function (Request $request, Response $response, array $ar
 $app->get('/api/quote', 'RandomQuoteController');
 $app->get('/api/quote/{id}', 'QuoteByIdController');
 $app->get('/api/character/{character}', 'QuotesByCharacterController');
+
+$app->post('api/character/{apiKey}','AddCharacterController');

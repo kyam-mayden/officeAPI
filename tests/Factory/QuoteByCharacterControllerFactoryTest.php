@@ -3,9 +3,9 @@
 namespace Tests\Factory;
 
 use PHPUnit\Framework\TestCase;
-use Portal\Factory\QuotesByCharacterControllerFactory;
-use Portal\Controller\QuotesByCharacterController;
-use Portal\Model\CharacterModel;
+use API\Factory\QuotesByCharacterControllerFactory;
+use API\Controller\QuotesByCharacterController;
+use API\Model\CharacterModel;
 use Psr\Container\ContainerInterface;
 
 

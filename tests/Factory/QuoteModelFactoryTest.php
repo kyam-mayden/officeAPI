@@ -2,8 +2,8 @@
 
 namespace Tests\Factory;
 use PHPUnit\Framework\TestCase;
-use Portal\Factory\QuoteModelFactory;
-use Portal\Model\QuoteModel;
+use API\Factory\QuoteModelFactory;
+use API\Model\QuoteModel;
 use Psr\Container\ContainerInterface;
 
 

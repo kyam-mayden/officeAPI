@@ -3,7 +3,7 @@
 
 namespace Tests\Model;
 use PHPUnit\Framework\TestCase;
-use Portal\Model\QuoteModel;
+use API\Model\QuoteModel;
 
 
 class QuoteModelTest extends TestCase

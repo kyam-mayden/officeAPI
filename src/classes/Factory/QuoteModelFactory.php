@@ -1,7 +1,7 @@
 <?php
 
-namespace Portal\Factory;
-use Portal\Model\QuoteModel;
+namespace API\Factory;
+use API\Model\QuoteModel;
 use Psr\Container\ContainerInterface;
 
 class QuoteModelFactory

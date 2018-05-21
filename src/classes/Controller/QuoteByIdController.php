@@ -1,8 +1,8 @@
 <?php
 
-namespace Portal\Controller;
+namespace API\Controller;
 
-use Portal\Model\QuoteModel;
+use API\Model\QuoteModel;
 use Slim\Http\Request;
 use Slim\Http\Response;
 

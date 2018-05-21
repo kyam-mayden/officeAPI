@@ -2,7 +2,7 @@
 
 namespace Tests\Model;
 use PHPUnit\Framework\TestCase;
-use Portal\Model\CharacterModel;
+use API\Model\CharacterModel;
 use PDO;
 
 

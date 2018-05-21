@@ -3,9 +3,9 @@
 namespace Tests\Factory;
 
 use PHPUnit\Framework\TestCase;
-use Portal\Factory\RandomQuoteControllerFactory;
-use Portal\Controller\RandomQuoteController;
-use Portal\Model\QuoteModel;
+use API\Factory\RandomQuoteControllerFactory;
+use API\Controller\RandomQuoteController;
+use API\Model\QuoteModel;
 use Psr\Container\ContainerInterface;
 
 class RandomQuoteControllerFactoryTest extends TestCase

@@ -27,16 +27,16 @@ $container['dbConnection'] = function ($c) {
 };
 
 //random quote controller
-$container['RandomQuoteController'] = new Portal\Factory\RandomQuoteControllerFactory();
+$container['RandomQuoteController'] = new API\Factory\RandomQuoteControllerFactory();
 
 //quote by Id controller
-$container['QuoteByIdController'] = new Portal\Factory\QuoteByIdControllerFactory();
+$container['QuoteByIdController'] = new API\Factory\QuoteByIdControllerFactory();
 
 //quote model
-$container['QuoteModel'] = new Portal\Factory\QuoteModelFactory();
+$container['QuoteModel'] = new API\Factory\QuoteModelFactory();
 
 //character Model
-$container['CharacterModel'] = new Portal\Factory\CharacterModelFactory();
+$container['CharacterModel'] = new API\Factory\CharacterModelFactory();
 
 //Quotes by character controller
-$container['QuotesByCharacterController'] = new Portal\Factory\QuotesByCharacterControllerFactory();
+$container['QuotesByCharacterController'] = new API\Factory\QuotesByCharacterControllerFactory();
