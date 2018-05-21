@@ -8,7 +8,7 @@ use Portal\Controller\QuoteByIdController;
 use Portal\Model\QuoteModel;
 use Psr\Container\ContainerInterface;
 
-class QuoteByIdControllerFactoryTest extends TestCase
+class QuotesByIdControllerFactoryTest extends TestCase
 {
     function testInvoke()
     {
